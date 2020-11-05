@@ -18,7 +18,7 @@ const FilterControls = props => {
 
   const handleChange = (e, type, value) => {
     e.preventDefault()
-    props.onUserInput(type, value)   // NEW
+    props.onUserInput(type, value)   
   }
   const handleTextChange = e => {
     handleChange(e, "name", e.target.value)
